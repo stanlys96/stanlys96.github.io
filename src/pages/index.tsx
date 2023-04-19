@@ -34,16 +34,16 @@ export default function Home() {
   const [category, setCategory] = useState("All");
 
   const iconArray = [
-    <HTML className="w-[80px] h-[80px]" />,
-    <Css className="w-[80px] h-[80px]" />,
-    <JavaScript className="w-[80px] h-[80px]" />,
-    <TypeScript className="w-[80px] h-[80px]" />,
-    <Tailwind className="w-[80px] h-[80px]" />,
-    <ReactIcon className="w-[80px] h-[80px]" />,
-    <ReactIcon className="w-[80px] h-[80px]" />,
+    <HTML key="html" className="w-[80px] h-[80px]" />,
+    <Css key="css" className="w-[80px] h-[80px]" />,
+    <JavaScript key="js" className="w-[80px] h-[80px]" />,
+    <TypeScript key="ts" className="w-[80px] h-[80px]" />,
+    <Tailwind key="tw" className="w-[80px] h-[80px]" />,
+    <ReactIcon key="react" className="w-[80px] h-[80px]" />,
+    <ReactIcon key="rn" className="w-[80px] h-[80px]" />,
     <img className="h-[80px]" src="/hardhat.png" alt="hardhat" />,
-    <Next className="w-[80px] h-[80px]" />,
-    <Git className="w-[80px] h-[80px]" />,
+    <Next key="next" className="w-[80px] h-[80px]" />,
+    <Git key="git" className="w-[80px] h-[80px]" />,
     <img className="h-[80px]" src="/flutter.png" alt="flutter" />,
     <img className="h-[80px]" src="/solidity.png" alt="solidity" />,
   ];
