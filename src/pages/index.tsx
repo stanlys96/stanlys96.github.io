@@ -182,7 +182,10 @@ export default function Home() {
         </p>
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 items-center">
           {iconArray.map((icon, idx) => (
-            <div className="border border-gray px-10 py-5 flex justify-center items-center gap-x-5 flex-col lg:flex-row">
+            <div
+              key={idx}
+              className="border border-gray px-10 py-5 flex justify-center items-center gap-x-5 flex-col lg:flex-row"
+            >
               {icon}
               {idx === 6 && (
                 <p className="text-black text-[18px] text-center lg:text-left">
@@ -312,7 +315,7 @@ export default function Home() {
               </div>
               <ul className="list-disc px-4">
                 <li className="text-black">
-                  Developing mobile apps and web applications for Adira's
+                  Developing mobile apps and web applications for Adira&apos;s
                   internal use.
                 </li>
                 <li className="text-black">
