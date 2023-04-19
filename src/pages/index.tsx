@@ -41,11 +41,16 @@ export default function Home() {
     <Tailwind key="tw" className="w-[80px] h-[80px]" />,
     <ReactIcon key="react" className="w-[80px] h-[80px]" />,
     <ReactIcon key="rn" className="w-[80px] h-[80px]" />,
-    <img className="h-[80px]" src="/hardhat.png" alt="hardhat" />,
+    <img key="hardhat" className="h-[80px]" src="/hardhat.png" alt="hardhat" />,
     <Next key="next" className="w-[80px] h-[80px]" />,
     <Git key="git" className="w-[80px] h-[80px]" />,
-    <img className="h-[80px]" src="/flutter.png" alt="flutter" />,
-    <img className="h-[80px]" src="/solidity.png" alt="solidity" />,
+    <img key="flutter" className="h-[80px]" src="/flutter.png" alt="flutter" />,
+    <img
+      key="solidity"
+      className="h-[80px]"
+      src="/solidity.png"
+      alt="solidity"
+    />,
   ];
 
   const filterPortfolio = (data: any) => {
