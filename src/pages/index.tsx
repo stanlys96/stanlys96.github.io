@@ -74,7 +74,7 @@ export default function Home() {
         <title>Stanly Sukmajaya</title>
       </Head>
       <nav className="bg-white py-5 px-[100px] border-b border-gray fixed h-[10vh] w-full z-50">
-        <ul className="flex justify-between items-center">
+        <ul className="flex justify-center md:justify-between items-center">
           <li className="hidden md:block">
             <a className="text-black cursor-pointer font-bold text-[25px]">
               Stanly
