@@ -268,7 +268,7 @@ export default function Home() {
           </div>
         </div>
         <p className="text-black text-left text-[20px] my-4">Work</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           <div className="bg-white rounded-[10px] p-4">
             <div className="flex flex-col gap-y-1">
               <div className="flex justify-between">
