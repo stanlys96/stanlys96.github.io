@@ -73,7 +73,7 @@ export default function Home() {
       <Head>
         <title>Stanly Sukmajaya</title>
       </Head>
-      <nav className="bg-white py-5 px-[100px] border-b border-gray fixed h-[10vh] w-full z-50">
+      <nav className="bg-white py-5 md:px-[100px] px-[25px] border-b border-gray fixed h-[10vh] w-full z-50">
         <ul className="flex justify-center md:justify-between items-center">
           <li className="hidden md:block">
             <a className="text-black cursor-pointer font-bold text-[25px]">
@@ -142,7 +142,7 @@ export default function Home() {
       </nav>
       <div
         ref={scrollToProfile}
-        className="bg-gray pt-[13vh] pb-10 flex gap-x-12 justify-center items-center px-[100px] md:gap-y-0 gap-y-12 md:px-[300px] flex-col md:flex-row"
+        className="bg-gray pt-[13vh] pb-10 flex gap-x-12 justify-center items-center md:px-[100px] px-[25px] md:gap-y-0 gap-y-12 md:px-[300px] flex-col md:flex-row"
       >
         <Image
           src="/stanly.png"
@@ -218,7 +218,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div ref={scrollToSkills} className="bg-white px-[100px] py-10">
+      <div
+        ref={scrollToSkills}
+        className="bg-white md:px-[100px] px-[25px] py-10"
+      >
         <p className="text-black text-center text-[30px] font-bold mb-4">
           SKILLS
         </p>
@@ -239,7 +242,10 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <div ref={scrollToExperience} className="bg-gray px-[100px] py-10">
+      <div
+        ref={scrollToExperience}
+        className="bg-gray md:px-[100px] px-[25px] py-10"
+      >
         <p className="text-black text-center text-[30px] font-bold mb-4">
           EXPERIENCE
         </p>
@@ -400,7 +406,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div ref={scrollToPortfolio} className="bg-lightGray px-[100px] py-10">
+      <div
+        ref={scrollToPortfolio}
+        className="bg-lightGray md:px-[100px] px-[25px] py-10"
+      >
         <p className="text-black text-center text-[30px] font-bold mb-4">
           PORTFOLIO
         </p>
