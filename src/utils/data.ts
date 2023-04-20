@@ -146,6 +146,31 @@ export const portfolioArray = [
   },
   {
     id: 9,
+    img_url: "/good-food-3.png",
+    name: "Good Food",
+    categories: [
+      {
+        color: "green",
+        name: "Mobile",
+      },
+    ],
+    description: "Aplikasi Restoran",
+    stacks: [
+      "Flutter",
+      "Node JS",
+      "Express JS",
+      "MongoDB",
+      "Provider",
+      "Firebase",
+    ],
+    status: {
+      name: "Go To Github",
+      status: "open",
+      link: "https://github.com/stanlys96/good_food_app",
+    },
+  },
+  {
+    id: 10,
     img_url: "/escape-official.png",
     name: "Escape Official",
     categories: [
@@ -167,7 +192,7 @@ export const portfolioArray = [
     },
   },
   {
-    id: 10,
+    id: 11,
     img_url: "/nft-marketplace.png",
     name: "NFT Marketplace",
     categories: [
@@ -189,7 +214,7 @@ export const portfolioArray = [
     },
   },
   {
-    id: 11,
+    id: 12,
     img_url: "/staking-dapp.png",
     name: "Staking dApp",
     categories: [

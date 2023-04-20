@@ -5,6 +5,7 @@ import {
   BsLinkedin,
   BsArrowRight,
   BsFillCloudArrowDownFill,
+  BsWhatsapp,
 } from "react-icons/bs";
 import {
   Css,
@@ -36,14 +37,14 @@ export default function Home() {
   const iconArray = [
     <HTML key="html" className="w-[80px] h-[80px]" />,
     <Css key="css" className="w-[80px] h-[80px]" />,
-    <JavaScript key="js" className="w-[80px] h-[80px]" />,
     <TypeScript key="ts" className="w-[80px] h-[80px]" />,
-    <Tailwind key="tw" className="w-[80px] h-[80px]" />,
+    <img key="postgresql" src="/postgresql.png" className="h-[80px]" />,
+    <img key="express" src="/express.png" className="h-[80px]" />,
     <ReactIcon key="react" className="w-[80px] h-[80px]" />,
     <ReactIcon key="rn" className="w-[80px] h-[80px]" />,
     <img key="hardhat" className="h-[80px]" src="/hardhat.png" alt="hardhat" />,
     <Next key="next" className="w-[80px] h-[80px]" />,
-    <Git key="git" className="w-[80px] h-[80px]" />,
+    <img key="mongodb" src="/mongodb.png" className="h-[80px]" />,
     <img key="flutter" className="h-[80px]" src="/flutter.png" alt="flutter" />,
     <img
       key="solidity"
@@ -162,22 +163,50 @@ export default function Home() {
             as the database.
           </p>
           <div className="flex gap-x-3 mt-3 justify-center md:justify-start">
-            <div className="p-3 bg-darkGray rounded-[10px] inline-block text-[20px] cursor-pointer">
+            <a
+              href={`mailto:stanlyskwok@gmail.com`}
+              target="_blank"
+              className="p-3 bg-darkGray rounded-[10px] inline-block text-[20px] cursor-pointer"
+            >
               <HiMail />
-            </div>
-            <div className="p-3 bg-darkGray rounded-[10px] inline-block text-[20px] cursor-pointer">
+            </a>
+            <a
+              href="https://www.linkedin.com/in/stanly-kwok/"
+              target="_blank"
+              className="p-3 bg-darkGray rounded-[10px] inline-block text-[20px] cursor-pointer"
+            >
               <BsLinkedin />
-            </div>
+            </a>
+            <a
+              href="https://wa.me/6281357202812"
+              target="_blank"
+              className="p-3 bg-darkGray rounded-[10px] inline-block text-[20px] cursor-pointer"
+            >
+              <BsWhatsapp />
+            </a>
           </div>
           <div className="flex gap-x-3 mt-3 justify-center md:justify-start">
-            <div className="py-2 px-3 rounded-[10px] bg-black text-white cursor-pointer cursor-pointer inline-block flex gap-x-2 items-center">
+            <a
+              onClick={() => {
+                scrollToPortfolio.current?.scrollIntoView({
+                  behavior: "smooth",
+                  block: "start",
+                  inline: "nearest",
+                });
+              }}
+              className="py-2 px-3 rounded-[10px] bg-black text-white cursor-pointer cursor-pointer inline-block flex gap-x-2 items-center"
+            >
               <span>Portfolio</span>
               <BsArrowRight />
-            </div>
-            <div className="py-2 px-3 rounded-[10px] border border-black text-black cursor-pointer cursor-pointer inline-block flex gap-x-2 items-center">
+            </a>
+            <a
+              href="/stanly-sukmajaya.pdf"
+              target="_blank"
+              className="py-2 px-3 rounded-[10px] border border-black text-black cursor-pointer cursor-pointer inline-block flex gap-x-2 items-center"
+            >
               <span>Download CV</span>
               <BsFillCloudArrowDownFill />
-            </div>
+            </a>
           </div>
         </div>
       </div>
