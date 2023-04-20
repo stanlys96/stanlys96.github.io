@@ -14,7 +14,7 @@ export const portfolioArray = [
       },
     ],
     description:
-      "Portal aplikasi game web3. Memudahkan users untuk bermain dan bertransaksi blockchain games.",
+      "Portal for web3 games. Making users more convenient to play and transact with web3 games.",
     stacks: ["React Native", "JavaScript", "Express JS", "PostgreSQL"],
     status: {
       name: "Beta Testing",
@@ -49,7 +49,7 @@ export const portfolioArray = [
         name: "Website",
       },
     ],
-    description: "Aplikasi untuk mempermudah manager dalam mengelola guild",
+    description: "Making managers more convenient to manage guilds.",
     stacks: ["React JS", "TypeScript", "Next JS", "Express JS", "PostgreSQL"],
     status: {
       name: "Restricted",
@@ -66,7 +66,7 @@ export const portfolioArray = [
         name: "Website",
       },
     ],
-    description: "Aplikasi untuk internal Metabase mengelola data",
+    description: "Web App for Metabase internal to manage data.",
     stacks: ["React JS", "TypeScript", "Next JS", "Express JS", "PostgreSQL"],
     status: {
       name: "Restricted",
@@ -83,7 +83,8 @@ export const portfolioArray = [
         name: "Website",
       },
     ],
-    description: "Aplikasi Analitik dan Monitoring transaksi user",
+    description:
+      "Analytics and monitoring web app. Designed to monitor user transactions.",
     stacks: ["React JS", "TypeScript", "Next JS", "Express JS", "PostgreSQL"],
     status: {
       name: "Restricted",
@@ -100,7 +101,7 @@ export const portfolioArray = [
         name: "Mobile",
       },
     ],
-    description: "Aplikasi Alumni SMA Gloria untuk saling connect",
+    description: "Mobile app for Gloria Alumni to connect with each other.",
     stacks: ["Flutter", "Node JS", "Express JS", "PostgreSQL", "Provider"],
     status: {
       name: "Go To App",
@@ -119,7 +120,7 @@ export const portfolioArray = [
       },
     ],
     description:
-      "Aplikasi internal Adira untuk mengelola data cabang-cabang Adira.",
+      "Mobile app for Adira internal to manage the data of Adira's branches.",
     stacks: ["Flutter", "Java", "PostgreSQL", "Provider", "Firebase"],
     status: {
       name: "Restricted",
@@ -136,7 +137,7 @@ export const portfolioArray = [
         name: "Mobile",
       },
     ],
-    description: "Aplikasi E-commerce",
+    description: "E-commerce mobile application",
     stacks: ["Flutter", "Node JS", "Express JS", "PostgreSQL", "Provider"],
     status: {
       name: "Go To Github",
@@ -154,7 +155,7 @@ export const portfolioArray = [
         name: "Mobile",
       },
     ],
-    description: "Aplikasi Restoran",
+    description: "Restaurant mobile application",
     stacks: [
       "Flutter",
       "Node JS",
@@ -183,7 +184,7 @@ export const portfolioArray = [
         name: "Web3",
       },
     ],
-    description: "Website untuk mint NFT escAPE Official",
+    description: "Website to mint escApe Official NFT.",
     stacks: ["Solidity", "React JS", "JavaScript", "Next JS", "Tailwind"],
     status: {
       name: "Go To Website",
@@ -205,7 +206,7 @@ export const portfolioArray = [
         name: "Web3",
       },
     ],
-    description: "Website untuk jual beli NFT",
+    description: "Website for buying and selling NFTs.",
     stacks: ["Solidity", "React JS", "JavaScript", "Next JS", "Tailwind"],
     status: {
       name: "Go To Website",
@@ -227,7 +228,7 @@ export const portfolioArray = [
         name: "Web3",
       },
     ],
-    description: "Website untuk staking tokens",
+    description: "Website to stake tokens.",
     stacks: ["Solidity", "React JS", "JavaScript", "Next JS", "Tailwind"],
     status: {
       name: "Go To Website",

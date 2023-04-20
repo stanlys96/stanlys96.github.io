@@ -106,7 +106,7 @@ export default function Home() {
                 }}
                 className="text-black cursor-pointer"
               >
-                Keahlian
+                Skills
               </a>
             </li>
             <li>
@@ -120,7 +120,7 @@ export default function Home() {
                 }}
                 className="text-black cursor-pointer"
               >
-                Pengalaman
+                Experience
               </a>
             </li>
             <li>
