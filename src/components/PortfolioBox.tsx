@@ -76,7 +76,7 @@ export const PortfolioBox = ({
       <a
         href={status.link}
         target="_blank"
-        className={`rounded-[10px] ${
+        className={`rounded-[10px] text-white ${
           status.status === "restricted" ? "bg-secondaryGray" : "bg-black"
         } w-full p-3 block ${
           status.status === "restricted"

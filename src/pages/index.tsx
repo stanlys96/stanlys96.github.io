@@ -74,13 +74,13 @@ export default function Home() {
         <title>Stanly Sukmajaya</title>
       </Head>
       <nav className="bg-white py-5 md:px-[100px] px-[25px] border-b border-gray fixed h-[10vh] w-full z-50">
-        <ul className="flex justify-center md:justify-between items-center">
+        <ul className="flex justify-center md:justify-between items-center h-full">
           <li className="hidden md:block">
             <a className="text-black cursor-pointer font-bold text-[25px]">
               Stanly
             </a>
           </li>
-          <ul className="flex gap-x-5">
+          <ul className="flex gap-x-5 h-full">
             <li>
               <a
                 onClick={() => {
