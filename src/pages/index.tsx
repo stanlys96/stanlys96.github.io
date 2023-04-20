@@ -413,7 +413,7 @@ export default function Home() {
         <p className="text-black text-center text-[30px] font-bold mb-4">
           PORTFOLIO
         </p>
-        <div className="flex justify-center items-center gap-x-5 mb-5">
+        <div className="flex flex-wrap justify-center items-center gap-x-5 mb-5">
           <a
             onClick={() => setCategory("All")}
             className={`px-5 py-3 border ${
