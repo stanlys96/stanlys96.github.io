@@ -208,7 +208,7 @@ export default function Home() {
               <BsArrowRight />
             </a>
             <a
-              href="/stanly-sukmajaya.pdf"
+              href="/Stanly-Sukmajaya.pdf"
               target="_blank"
               className="py-2 px-3 rounded-[10px] border border-black text-black cursor-pointer cursor-pointer inline-block flex gap-x-2 items-center"
             >
