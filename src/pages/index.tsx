@@ -6,6 +6,7 @@ import {
   BsArrowRight,
   BsFillCloudArrowDownFill,
   BsWhatsapp,
+  BsGithub,
 } from "react-icons/bs";
 import {
   Css,
@@ -183,6 +184,13 @@ export default function Home() {
               className="p-3 bg-darkGray rounded-[10px] inline-block text-[20px] cursor-pointer"
             >
               <BsWhatsapp />
+            </a>
+            <a
+              href="https://github.com/stanlys96"
+              target="_blank"
+              className="p-3 bg-darkGray rounded-[10px] inline-block text-[20px] cursor-pointer"
+            >
+              <BsGithub />
             </a>
           </div>
           <div className="flex gap-x-3 mt-3 justify-center md:justify-start">
