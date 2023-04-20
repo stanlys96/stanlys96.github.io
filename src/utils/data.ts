@@ -140,7 +140,7 @@ export const portfolioArray = [
     description: "E-commerce mobile application",
     stacks: ["Flutter", "Node JS", "Express JS", "PostgreSQL", "Provider"],
     status: {
-      name: "Go To Github",
+      name: "Go To Github Repo",
       status: "open",
       link: "https://github.com/stanlys96/flutter-ecommerce-app",
     },
@@ -165,7 +165,7 @@ export const portfolioArray = [
       "Firebase",
     ],
     status: {
-      name: "Go To Github",
+      name: "Go To Github Repo",
       status: "open",
       link: "https://github.com/stanlys96/good_food_app",
     },
