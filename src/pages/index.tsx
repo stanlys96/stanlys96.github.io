@@ -322,7 +322,7 @@ export default function Home() {
                   on blockchain platforms.
                 </li>
               </ul>
-              <hr className="my-4" />
+              <hr className="my-4 border border-darkGray" />
               <p className="text-black text-sm md:text-base">Tech Stacks:</p>
               <ul className="list-disc px-4 grid grid-cols-2 text-[12px] md:text-[16px] text-[12px] md:text-[16px]">
                 <li className="text-black">React</li>
@@ -331,7 +331,7 @@ export default function Home() {
                 <li className="text-black">Adonis JS</li>
                 <li className="text-black">PostgreSQL</li>
               </ul>
-              <hr className="my-4" />
+              <hr className="my-4 border border-darkGray" />
               <p className="text-black text-sm md:text-base">Applications:</p>
               <ul className="list-disc px-4 grid grid-cols-2 text-[12px] md:text-[16px]">
                 <li className="text-black">Hyfen.gg</li>
@@ -388,7 +388,7 @@ export default function Home() {
                   and databases.
                 </li>
               </ul>
-              <hr className="my-4" />
+              <hr className="my-4 border border-darkGray" />
               <p className="text-black text-sm md:text-base">Tech Stacks:</p>
               <ul className="list-disc px-4 grid grid-cols-2 text-[12px] md:text-[16px]">
                 <li className="text-black">Flutter</li>
@@ -396,7 +396,7 @@ export default function Home() {
                 <li className="text-black">Java Springboot</li>
                 <li className="text-black">PostgreSQL</li>
               </ul>
-              <hr className="my-4" />
+              <hr className="my-4 border border-darkGray" />
               <p className="text-black text-sm md:text-base">Applications:</p>
               <ul className="list-disc px-4 grid grid-cols-2 text-[12px] md:text-[16px]">
                 <li className="text-black">Ad1Sales</li>
