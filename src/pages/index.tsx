@@ -59,11 +59,7 @@ export default function Home() {
     if (category === "All") {
       return data;
     }
-    for (let i = 0; i < data.categories.length; i++) {
-      if (data.categories[i].name === category) {
-        return data;
-      }
-    }
+    return data.categories.find((element: any) => element.name === category);
   };
 
   const filteredData = portfolioArray.filter(filterPortfolio);
