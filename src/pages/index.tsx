@@ -276,7 +276,7 @@ export default function Home() {
                     Full Stack Developer
                   </p>
                   <p className="text-black text-sm md:text-base">
-                    2023 - present
+                    Jan 2023 - present
                   </p>
                   <p className="text-black text-sm md:text-base">
                     Responsibilities:
@@ -348,7 +348,9 @@ export default function Home() {
                   <p className="text-black text-sm md:text-base">
                     Flutter Developer
                   </p>
-                  <p className="text-black text-sm md:text-base">2021 - 2022</p>
+                  <p className="text-black text-sm md:text-base">
+                    Aug 2021 - Dec 2022
+                  </p>
                   <p className="text-black text-sm md:text-base">
                     Responsibilities:
                   </p>
